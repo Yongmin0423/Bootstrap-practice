@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&family=Teko:wght@300..700&display=swap');
+
+
+body{
+    font-family: "Teko", sans-serif;
+}
+
+.btn-outline-success {
+    color: chocolate;
+    border-color: chocolate;
+}
+
+.btn-outline-success:hover {
+    color: white;
+    background-color: chocolate;
+    border-color: chocolate;
+}
+.sign {
+    width: 100px;
+    height: 100px;
+}
+
+.footer {
+    background-color: #19110b;
+    color: white;
+}
+
+.fist-line {
+    border-bottom: 1px solid #392d23;
+}
+
+.second-line a {
+    color: white;
+    text-decoration: none;
+}
+
+.third-line {
+    display:none;
+    text-align: center;
+}
+
+@media screen and (max-width: 48rem) {
+    .second-line {
+        text-align: center;
+      
+        padding: 0 2rem;
+      
+      border-bottom: 1px solid #392d23;
+}
+  
+    }
+
+@media screen and (max-width: 48rem) {
+    .fist-line {
+        text-align: center;
+
+    }
+    
+}
+
+@media screen and (max-width: 48rem) {
+    .third-line {
+        display: block;
+    }
+}
+
+.banner-img {
+    width: 100vw;
+    height: 700px;
+}
+
+.wonyoung-photo {
+    background-color: #19110b;
+    color:white;
+    
+}
+
+.wonyoung-photo img {
+    height: 300px;
+}
